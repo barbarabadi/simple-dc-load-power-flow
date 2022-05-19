@@ -6,8 +6,8 @@ basemva = 100;  accuracy = 0.0001;  maxiter = 10;
 % Bus Data for non slack buses
 %       Bus  -Load- -Gen-
 %       No.    MW     MW  
-busdata=[1   340.0  200.0  
-         2   190.0    0.0];
+busdata=[2   340.0  200.0  
+         3   190.0    0.0];
 
 %        The bus '1' is slack
 %        Bus   Bus     R        X       1/2B
