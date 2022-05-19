@@ -19,9 +19,9 @@ for  n=1:nbus
      for k=1:nbr
          if nl(k)==n
          Ybus(n,n) = Ybus(n,n)+y(k) + Bc(k);
-         elseif nr(k)==n
+		 elseif nr(k)==n
          Ybus(n,n) = Ybus(n,n)+y(k) +Bc(k);
-         else, end
+		 else, end
      end
 end
 clear Pgg
