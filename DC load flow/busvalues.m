@@ -2,7 +2,8 @@ clear all
 basemva = 100;  accuracy = 0.0001;  maxiter = 10;
 % The impedances are expressed on a 1000 MVA base.
 % In problems 9.7-9.9 the base is mistakenly stated as 100 MVA.
-% for non slack buses
+
+% Bus Data for non slack buses
 %       Bus  -Load- -Gen-
 %       No.    MW     MW  
 busdata=[1   340.0  200.0  
