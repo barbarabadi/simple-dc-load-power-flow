@@ -21,7 +21,8 @@ for  n=1:nbus
          Ybus(n,n) = Ybus(n,n)+y(k) + Bc(k);
 		 elseif nr(k)==n
          Ybus(n,n) = Ybus(n,n)+y(k) +Bc(k);
-		 else, end
+         else
+         end
      end
 end
 clear Pgg
