@@ -25,4 +25,4 @@ for  n=1:nbus
          end
      end
 end
-clear Pgg
+

@@ -1,7 +1,6 @@
 clear all
 basemva = 100; 
-% The impedances are expressed on a 1000 MVA base.
-% In problems 9.7-9.9 the base is mistakenly stated as 100 MVA.
+% The impedances are expressed on a 100 MVA base.
 
 % Bus Data for non slack buses
 %       Bus  -Load- -Gen-
@@ -19,4 +18,4 @@ linedata=[1     2     0.00     0.1     0.0000
           3     4     0.00     0.1     0.0000];
 lfybus;    % Forms the bus admittance matrix
 Ybus
-lfdc       % does DC load flow
+lfdc       % Does DC load flow
